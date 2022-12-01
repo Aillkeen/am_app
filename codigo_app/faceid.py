@@ -87,7 +87,7 @@ class CamApp(App):
         frame = frame[120:120+250, 200:200+250, :]
         cv2.imwrite(SAVE_PATH, frame)
         
-        # No código abaixo iremos percorres as imagens do diretório verification_images
+        # No código abaixo iremos percorrer as imagens do diretório verification_images
         # Para cada imagem desse diretório iremos pedir para o modelo realizar a predição comparando a imagem com a imagem recebida da câmera
         # Para cada predição iremos guardar os resultados preditos pelo modelo para verificarmos depois
         results = []
